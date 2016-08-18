@@ -15,9 +15,11 @@ return array(
     'Drupal\\Driver' => array($vendorDir . '/drupal/drupal-driver/src'),
     'Drupal\\Component' => array($vendorDir . '/drupal/drupal-driver/src'),
     'Composer\\CustomDirectoryInstaller' => array($vendorDir . '/mnsami/composer-custom-directory-installer/src'),
+    'ComponentInstaller' => array($vendorDir . '/robloach/component-installer/src'),
     'Behat\\Transliterator' => array($vendorDir . '/behat/transliterator/src'),
     'Behat\\Testwork' => array($vendorDir . '/behat/behat/src'),
     'Behat\\MinkExtension' => array($vendorDir . '/behat/mink-extension/src'),
     'Behat\\Gherkin' => array($vendorDir . '/behat/gherkin/src'),
     'Behat\\Behat' => array($vendorDir . '/behat/behat/src'),
+    'Assetic' => array($vendorDir . '/kriswallsmith/assetic/src'),
 );
