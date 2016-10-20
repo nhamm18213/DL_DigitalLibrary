@@ -326,3 +326,14 @@ function sbac_core_update_7019() {
     ->condition('name', $name, '=')
     ->execute();
 }
+
+/**
+ * Enable UUID and UUID Feature modules
+ */
+function sbac_core_update_7020() {
+  $modules = array(
+    'uuid',
+    'uuid_features'
+  );
+  module_enable($modules);
+}
